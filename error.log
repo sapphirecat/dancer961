@@ -1,5 +1,5 @@
 start.pl using Perl 5.018001
-plackup -s Starman --listen 127.0.0.1:5001 /home/ec2-user/dancer961/testapp/bin/app.pl
+plackup /home/ec2-user/dancer961/testapp/bin/app.pl
 app.pl using Perl 5.018001
 Error while loading /home/ec2-user/dancer961/testapp/bin/app.pl: Could not load environment file '/home/ec2-user/dancer961/testapp/environments/development.yml', and require_environment is set at /home/ec2-user/dancer961/local/lib/perl5/Dancer/Config.pm line 201.
 	Dancer::Config::load('Dancer::Config') called at /home/ec2-user/dancer961/local/lib/perl5/Dancer.pm line 471
@@ -19,5 +19,5 @@ Error while loading /home/ec2-user/dancer961/testapp/bin/app.pl: Could not load 
 	Plack::Runner::__ANON__() called at /home/ec2-user/dancer961/local/lib/perl5/Plack/Runner.pm line 24
 	Plack::Runner::__ANON__() called at /home/ec2-user/dancer961/local/lib/perl5/Plack/Runner.pm line 24
 	Plack::Runner::__ANON__() called at /home/ec2-user/dancer961/local/lib/perl5/Plack/Loader.pm line 55
-	Plack::Loader::preload_app('Plack::Loader=HASH(0x92dee40)', 'CODE(0x940d070)') called at /home/ec2-user/dancer961/local/lib/perl5/Plack/Runner.pm line 274
-	Plack::Runner::run('Plack::Runner=HASH(0x91e5c78)') called at /home/ec2-user/dancer961/local/bin/plackup line 10
+	Plack::Loader::preload_app('Plack::Loader=HASH(0x8951a18)', 'CODE(0x8a20680)') called at /home/ec2-user/dancer961/local/lib/perl5/Plack/Runner.pm line 274
+	Plack::Runner::run('Plack::Runner=HASH(0x8863c78)') called at /home/ec2-user/dancer961/local/bin/plackup line 10
