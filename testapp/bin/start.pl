@@ -9,7 +9,7 @@ use File::Basename qw(dirname);
 
 my $APPDIR = dirname($Bin);
 
-my @cmd = ('plackup', "$APPDIR/bin/app.pl");
+my @cmd = ("$APPDIR/bin/app.pl");
 say STDERR "start.pl using Perl $]";
 say STDERR "@cmd";
 

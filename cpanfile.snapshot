@@ -1,26 +1,5 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
-  Apache-LogFormat-Compiler-0.13
-    pathname: K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.13.tar.gz
-    provides:
-      Apache::LogFormat::Compiler 0.13
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      Module::Build 0.38
-      POSIX 0
-      Time::Local 0
-      perl 5.008005
-  Class-Inspector-1.28
-    pathname: A/AD/ADAMK/Class-Inspector-1.28.tar.gz
-    provides:
-      Class::Inspector 1.28
-      Class::Inspector::Functions 1.28
-    requirements:
-      ExtUtils::MakeMaker 6.59
-      File::Spec 0.80
-      Test::More 0.47
-      perl 5.006
   Dancer-1.3118
     pathname: Y/YA/YANICK/Dancer-1.3118.tar.gz
     provides:
@@ -107,31 +86,6 @@ DISTRIBUTIONS
       Time::HiRes 0
       Try::Tiny 0.09
       URI 1.59
-  Devel-StackTrace-1.30
-    pathname: D/DR/DROLSKY/Devel-StackTrace-1.30.tar.gz
-    provides:
-      Devel::StackTrace 1.30
-      Devel::StackTrace::Frame 1.30
-    requirements:
-      ExtUtils::MakeMaker 6.30
-      File::Spec 0
-      Scalar::Util 0
-      Test::More 0.88
-      base 0
-      bytes 0
-      overload 0
-      strict 0
-      warnings 0
-  Devel-StackTrace-AsHTML-0.14
-    pathname: M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.14.tar.gz
-    provides:
-      Devel::StackTrace::AsHTML 0.14
-    requirements:
-      Devel::StackTrace 0
-      ExtUtils::MakeMaker 6.59
-      Filter::Util::Call 0
-      Test::More 0
-      perl 5.008001
   Encode-Locale-1.03
     pathname: G/GA/GAAS/Encode-Locale-1.03.tar.gz
     provides:
@@ -155,31 +109,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       HTTP::Date 6
       perl 5.006002
-  File-ShareDir-1.03
-    pathname: A/AD/ADAMK/File-ShareDir-1.03.tar.gz
-    provides:
-      File::ShareDir 1.03
-    requirements:
-      Carp 0
-      Class::Inspector 1.12
-      ExtUtils::MakeMaker 6.42
-      File::Spec 0.80
-      Test::More 0.47
-      perl 5.005
-  File-ShareDir-Install-0.05
-    pathname: G/GW/GWYN/File-ShareDir-Install-0.05.tar.gz
-    provides:
-      File::ShareDir::Install 0.05
-    requirements:
-      ExtUtils::MakeMaker 6.11
-      File::Spec 0
-      IO::Dir 0
-  Filesys-Notify-Simple-0.12
-    pathname: M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
-    provides:
-      Filesys::Notify::Simple 0.12
-    requirements:
-      ExtUtils::MakeMaker 6.30
   HTML-Parser-3.71
     pathname: G/GA/GAAS/HTML-Parser-3.71.tar.gz
     provides:
@@ -316,25 +245,6 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.30
       HTTP::Server::Simple 0.42
-  HTTP-Tiny-0.035
-    pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.035.tar.gz
-    provides:
-      HTTP::Tiny 0.035
-    requirements:
-      Carp 0
-      ExtUtils::MakeMaker 6.30
-      IO::Socket 0
-      MIME::Base64 0
-      Time::Local 0
-      bytes 0
-      strict 0
-      warnings 0
-  Hash-MultiValue-0.15
-    pathname: M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
-    provides:
-      Hash::MultiValue 0.15
-    requirements:
-      ExtUtils::MakeMaker 6.30
   IO-HTML-1.00
     pathname: C/CJ/CJM/IO-HTML-1.00.tar.gz
     provides:
@@ -388,110 +298,6 @@ DISTRIBUTIONS
       IO::Select 0
       IO::Socket::INET 0
       perl 5.006002
-  Plack-1.0029
-    pathname: M/MI/MIYAGAWA/Plack-1.0029.tar.gz
-    provides:
-      HTTP::Message::PSGI undef
-      HTTP::Server::PSGI undef
-      Plack 1.0029
-      Plack::App::CGIBin undef
-      Plack::App::Cascade undef
-      Plack::App::Directory undef
-      Plack::App::File undef
-      Plack::App::PSGIBin undef
-      Plack::App::URLMap undef
-      Plack::App::WrapCGI undef
-      Plack::Builder undef
-      Plack::Component undef
-      Plack::HTTPParser undef
-      Plack::HTTPParser::PP undef
-      Plack::Handler undef
-      Plack::Handler::Apache1 undef
-      Plack::Handler::Apache2 undef
-      Plack::Handler::Apache2::Registry undef
-      Plack::Handler::CGI undef
-      Plack::Handler::CGI::Writer undef
-      Plack::Handler::FCGI undef
-      Plack::Handler::HTTP::Server::PSGI undef
-      Plack::Handler::Standalone undef
-      Plack::LWPish undef
-      Plack::Loader undef
-      Plack::Loader::Delayed undef
-      Plack::Loader::Restarter undef
-      Plack::Loader::Shotgun undef
-      Plack::MIME undef
-      Plack::Middleware undef
-      Plack::Middleware::AccessLog undef
-      Plack::Middleware::AccessLog::Timed undef
-      Plack::Middleware::Auth::Basic undef
-      Plack::Middleware::BufferedStreaming undef
-      Plack::Middleware::Chunked undef
-      Plack::Middleware::Conditional undef
-      Plack::Middleware::ConditionalGET undef
-      Plack::Middleware::ContentLength undef
-      Plack::Middleware::ContentMD5 undef
-      Plack::Middleware::ErrorDocument undef
-      Plack::Middleware::HTTPExceptions undef
-      Plack::Middleware::Head undef
-      Plack::Middleware::IIS6ScriptNameFix undef
-      Plack::Middleware::IIS7KeepAliveFix undef
-      Plack::Middleware::JSONP undef
-      Plack::Middleware::LighttpdScriptNameFix undef
-      Plack::Middleware::Lint undef
-      Plack::Middleware::Log4perl undef
-      Plack::Middleware::LogDispatch undef
-      Plack::Middleware::NullLogger undef
-      Plack::Middleware::RearrangeHeaders undef
-      Plack::Middleware::Recursive undef
-      Plack::Middleware::Refresh undef
-      Plack::Middleware::Runtime undef
-      Plack::Middleware::SimpleContentFilter undef
-      Plack::Middleware::SimpleLogger undef
-      Plack::Middleware::StackTrace undef
-      Plack::Middleware::Static undef
-      Plack::Middleware::XFramework undef
-      Plack::Middleware::XSendfile undef
-      Plack::Recursive::ForwardRequest undef
-      Plack::Request 1.0029
-      Plack::Request::Upload undef
-      Plack::Response 1.0029
-      Plack::Runner undef
-      Plack::TempBuffer undef
-      Plack::Test undef
-      Plack::Test::MockHTTP undef
-      Plack::Test::Server undef
-      Plack::Test::Suite undef
-      Plack::Util undef
-      Plack::Util::Accessor undef
-      Plack::Util::IOWithPath undef
-      Plack::Util::Prototype undef
-    requirements:
-      Apache::LogFormat::Compiler 0.12
-      Devel::StackTrace 1.23
-      Devel::StackTrace::AsHTML 0.11
-      ExtUtils::MakeMaker 6.30
-      File::ShareDir 1.00
-      File::ShareDir::Install 0.03
-      Filesys::Notify::Simple 0
-      HTTP::Body 1.06
-      HTTP::Message 5.814
-      HTTP::Tiny 0.034
-      Hash::MultiValue 0.05
-      Pod::Usage 1.36
-      Stream::Buffered 0.02
-      Test::TCP 2.00
-      Try::Tiny 0
-      URI 1.59
-      parent 0
-  Stream-Buffered-0.02
-    pathname: D/DO/DOY/Stream-Buffered-0.02.tar.gz
-    provides:
-      Stream::Buffered 0.02
-      Stream::Buffered::Auto undef
-      Stream::Buffered::File undef
-      Stream::Buffered::PerlIO undef
-    requirements:
-      ExtUtils::MakeMaker 6.36
   Test-Deep-0.110
     pathname: R/RJ/RJBS/Test-Deep-0.110.tar.gz
     provides:
@@ -561,47 +367,6 @@ DISTRIBUTIONS
       Test::More 0.47
       Test::Tester 0.107
       perl 5.006
-  Test-Requires-0.07
-    pathname: T/TO/TOKUHIROM/Test-Requires-0.07.tar.gz
-    provides:
-      Test::Requires 0.07
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      ExtUtils::MakeMaker 6.59
-      Module::Build 0.38
-      Test::Builder::Module 0
-      Test::More 0.61
-      perl 5.008_001
-  Test-SharedFork-0.21
-    pathname: T/TO/TOKUHIROM/Test-SharedFork-0.21.tar.gz
-    provides:
-      Test::SharedFork 0.21
-      Test::SharedFork::Array undef
-      Test::SharedFork::Scalar undef
-      Test::SharedFork::Store undef
-    requirements:
-      App::Prove 0
-      ExtUtils::MakeMaker 6.59
-      Test::More 0.88
-      Test::Requires 0
-      Time::HiRes 0
-      perl 5.008
-  Test-TCP-2.00
-    pathname: T/TO/TOKUHIROM/Test-TCP-2.00.tar.gz
-    provides:
-      Net::EmptyPort undef
-      Test::TCP 2.00
-      Test::TCP::CheckPort undef
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      IO::Socket::INET 0
-      Module::Build 0.38
-      Test::More 0
-      Test::SharedFork 0.19
-      Time::HiRes 0
-      perl 5.008001
   Test-Tester-0.109
     pathname: F/FD/FDALY/Test-Tester-0.109.tar.gz
     provides:

@@ -5,4 +5,3 @@ requires 'MIME::Types';
 requires 'Test::More';
 requires 'YAML';
 requires 'Dancer', '>= 1.3118, < 2.0000';
-requires 'Plack', '>= 1.0028';
