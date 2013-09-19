@@ -7,8 +7,8 @@ Reproduction:
 	# clone this repo
 	# set up a clean perl (plenv || perlbrew and Carton)
 	cd dancer961
-	carton install
-	# now you have Dancer, Plack, Starman, and their deps, locally
+	carton install --deployment
+	# now you have Dancer and dependencies, locally
 	carton exec testapp/bin/start.pl
 
 Sample output on my machine is included in [error.log](error.log).
