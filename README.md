@@ -9,7 +9,7 @@ Reproduction:
 	cd dancer961
 	carton install --deployment
 	# now you have Dancer and dependencies, locally
-	carton exec testapp/bin/start.pl
+	carton exec testapp/bin/app.pl
 
 Sample output on my machine is included in [error.log](error.log).
 
